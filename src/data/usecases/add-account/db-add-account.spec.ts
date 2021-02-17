@@ -1,4 +1,4 @@
-import { DbAddAccount } from '../add-account/db-add-account'
+import { DbAddAccount } from './db-add-account'
 
 describe('DbAddAccount Usecase', () => {
   test('Should call Encrypter with correct password', async () => {
